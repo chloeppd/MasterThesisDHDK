@@ -3,8 +3,8 @@
 ## Table of Contents
 + [About](#about)
 + [Materials](#materials)
-+ [Usage - Examples](#examples)
-<!--- + [Details and Acknowledgments](#details) -->
++ [Demo](#examples)
++ [Details](#details)
 
 ## About <a name = "about"></a>
 This repository provides additional materials for the final project of the Digital Humanities & Digital Knowledge Master Degree, that included the development of a python package designed for processing audio files and extracting acoustic biomarkers for the identification of neurocognitive disorder from speech. The objective of the work is to contribute to current research in the identification of linguistical manifestations of the illness, towards the creation of reliable and non-intrusive tools for its early detection.
@@ -12,8 +12,8 @@ This repository provides additional materials for the final project of the Digit
  ## Materials
 
 The Notebooks directory contains the following materials:
--- **Voice Activity Detection (VAD) Evaluation)**
--- **Package demonstration (read-only)**
+- **Voice Activity Detection (VAD) Evaluation**
+- **Package demonstration**
 <!--- **Temporal speech parameters:** mean, median and standard deviation of speech and silence segments, percentage on silence ratio, percentage on silence to speech ratio, transformed phonation rate.
 
 - **Pitch related:** F0 (Sub-Harmonic-Summation & Post-Viterbi Smoothing)
@@ -52,7 +52,7 @@ You may also need to get the necessary permissions:
 
 
 
-## Usage-Examples <a name = "examples"></a>
+## Demo <a name = "examples"></a>
 
 See a demonstration on the Google Colab Notebook.
 
@@ -61,8 +61,10 @@ See a demonstration on the Google Colab Notebook.
 </a>
 
 
-<!--
-## Details and Acknowledgments<a name = "details"></a>
+
+<!--## Details and Acknowledgments<a name = "details"></a>
+
+
 
 - This project uses the **INTERSPEECH 2016 ComparE and GeMAPS feature sets** using the <a href="https://github.com/audeering/opensmile-python?tab=readme-ov-file">openSMILE</a> python wrapper for audio analysis.
 
