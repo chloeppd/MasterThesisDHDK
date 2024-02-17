@@ -1,13 +1,12 @@
-# Acoustic DLB
+#Automatic Extraction of Speech Biomarkers for the Early Diagnosis of Neurocognitive Disorder 
 
 ## Table of Contents
 + [About](#about)
-+ [Usage](#usage)
-+ [Examples](#examples)
++ [Usage - Examples](#examples)
 + [Details and Acknowledgments](#details)
 
 ## About <a name = "about"></a>
-AcousticDLB is a Python package designed for processing audio files and extracting acoustic biomarkers of neurocognitive disorder. Its objective is to contribute to current research in the identification of linguistical manifestations of the illness, and support the training of automatic classifiers with the scope to devise reliable and non-intrusive tools for the early detection of neurocognitive disorder through speech.
+This repository provides additional materials for the final project of the Digital Humanities & Digital Knowledge Master Degree. A Python package was designed for processing audio files and extracting acoustic biomarkers for the identification of neurocognitive disorder from speech. Its objective is to contribute to current research in the identification of linguistical manifestations of the illness, and support the training of automatic classifiers with the scope to devise reliable and non-intrusive tools for the early detection of neurocognitive disorder through speech. 
 
 <!-- ## Features
 
@@ -47,9 +46,6 @@ You may also need to get the necessary permissions:
 
 
 
-## Usage <a name = "usage"></a>
-
-You can initialize an AudioProcessor object and extract the features you are interested in.
 
 ```
 # demo
@@ -63,7 +59,7 @@ file_level, segment_level = get_all_features(audio_processor,average="both")
 
 ```
 
-## Examples <a name = "examples"></a>
+## Usage-Examples <a name = "examples"></a>
 
 See a demonstration on the Google Colab Notebook!
 
