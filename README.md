@@ -2,15 +2,19 @@
 
 ## Table of Contents
 + [About](#about)
++ [Materials](#materials)
 + [Usage - Examples](#examples)
-+ [Details and Acknowledgments](#details)
+<!--- + [Details and Acknowledgments](#details) -->
 
 ## About <a name = "about"></a>
-This repository provides additional materials for the final project of the Digital Humanities & Digital Knowledge Master Degree. It provides a demonstration of the package that was designed for processing audio files and extracting acoustic biomarkers for the identification of neurocognitive disorder from speech, with the objective to contribute to current research in the identification of linguistical manifestations of the illness, to support the creation of reliable and non-intrusive tools for its early detection.
+This repository provides additional materials for the final project of the Digital Humanities & Digital Knowledge Master Degree, that included the development of a python package designed for processing audio files and extracting acoustic biomarkers for the identification of neurocognitive disorder from speech. The objective of the work is to contribute to current research in the identification of linguistical manifestations of the illness, towards the creation of reliable and non-intrusive tools for its early detection.
 
-<!-- ## Features
+ ## Materials
 
-- **Temporal speech parameters:** mean, median and standard deviation of speech and silence segments, percentage on silence ratio, percentage on silence to speech ratio, transformed phonation rate.
+The Notebooks directory contains the following materials:
+-- **Voice Activity Detection (VAD) Evaluation)**
+-- **Package demonstration (read-only)**
+<!--- **Temporal speech parameters:** mean, median and standard deviation of speech and silence segments, percentage on silence ratio, percentage on silence to speech ratio, transformed phonation rate.
 
 - **Pitch related:** F0 (Sub-Harmonic-Summation & Post-Viterbi Smoothing)
 
@@ -50,18 +54,7 @@ You may also need to get the necessary permissions:
 
 ## Usage-Examples <a name = "examples"></a>
 
-```
-# demo
-audio_processor = AudioProcessor('your_wav_file.wav')
-
-# speech and silence segments
-audio_processor.spe_sil_stats()
-
-# return all features on a global utterance and file level (recommended for saving computation time)
-file_level, segment_level = get_all_features(audio_processor,average="both")
-
-```
-See a demonstration on the Google Colab Notebook!
+See a demonstration on the Google Colab Notebook.
 
 <a target="_blank" href="https://colab.research.google.com/github/chloeppd/AcousticDLBextractor/blob/main/Notebooks/demo.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
