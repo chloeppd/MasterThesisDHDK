@@ -1,4 +1,4 @@
-#Automatic Extraction of Speech Biomarkers for the Early Diagnosis of Neurocognitive Disorder 
+#Automatic Extraction of Speech Biomarkers for the Early Diagnosis of Neurocognitive Disorder
 
 ## Table of Contents
 + [About](#about)
@@ -6,7 +6,7 @@
 + [Details and Acknowledgments](#details)
 
 ## About <a name = "about"></a>
-This repository provides additional materials for the final project of the Digital Humanities & Digital Knowledge Master Degree. A Python package was designed for processing audio files and extracting acoustic biomarkers for the identification of neurocognitive disorder from speech. Its objective is to contribute to current research in the identification of linguistical manifestations of the illness, and support the training of automatic classifiers with the scope to devise reliable and non-intrusive tools for the early detection of neurocognitive disorder through speech. 
+This repository provides additional materials for the final project of the Digital Humanities & Digital Knowledge Master Degree. It provides a demonstration of the package that was designed for processing audio files and extracting acoustic biomarkers for the identification of neurocognitive disorder from speech, with the objective to contribute to current research in the identification of linguistical manifestations of the illness, to support the creation of reliable and non-intrusive tools for its early detection.
 
 <!-- ## Features
 
@@ -20,11 +20,11 @@ This repository provides additional materials for the final project of the Digit
 
 - **Self-similarity:** Complexity of the speech signal using the Higuchi Fractal Dimension Algorithm. -->
 
- Please refer to the <a href="#details"> details </a> section for more.
-
+ <!-- Please refer to the <a href="#details"> details </a> section for more. -->
+<!--
 ### Prerequisites
 
-This program has been developed and tested on Linux (Ubuntu) environment.
+This program has been developed and tested on Linux (Ubuntu) environment. -->
 
 <!-- ### Installing/Requirements
 
@@ -47,6 +47,9 @@ You may also need to get the necessary permissions:
 
 
 
+
+## Usage-Examples <a name = "examples"></a>
+
 ```
 # demo
 audio_processor = AudioProcessor('your_wav_file.wav')
@@ -58,9 +61,6 @@ audio_processor.spe_sil_stats()
 file_level, segment_level = get_all_features(audio_processor,average="both")
 
 ```
-
-## Usage-Examples <a name = "examples"></a>
-
 See a demonstration on the Google Colab Notebook!
 
 <a target="_blank" href="https://colab.research.google.com/github/chloeppd/AcousticDLBextractor/blob/main/Notebooks/demo.ipynb">
@@ -68,6 +68,7 @@ See a demonstration on the Google Colab Notebook!
 </a>
 
 
+<!--
 ## Details and Acknowledgments<a name = "details"></a>
 
 - This project uses the **INTERSPEECH 2016 ComparE and GeMAPS feature sets** using the <a href="https://github.com/audeering/opensmile-python?tab=readme-ov-file">openSMILE</a> python wrapper for audio analysis.
@@ -76,4 +77,4 @@ See a demonstration on the Google Colab Notebook!
 
 - **The Higuchi Fractal Dimension Algorithm** is retrieved from <a href="https://github.com/inuritdino/HiguchiFractalDimension">this package</a> at master commit: fef4903.
 
-- **The sample audios** are from the open access <a href="http://www.clips.unina.it/it/index.jsp">CLIPS</a> corpus (Corpora e Lessici dell'Italiano Parlato e Scritto).
+- **The sample audios** are from the open access <a href="http://www.clips.unina.it/it/index.jsp">CLIPS</a> corpus (Corpora e Lessici dell'Italiano Parlato e Scritto). -->
