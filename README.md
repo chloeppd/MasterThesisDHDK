@@ -56,7 +56,7 @@ You may also need to get the necessary permissions:
 
 See a demonstration on the Google Colab Notebook.
 
-<a target="_blank" href="https://colab.research.google.com/github/chloeppd/AcousticDLBextractor/blob/main/Notebooks/demo.ipynb">
+<a target="_blank" href="https://github.com/chloeppd/MasterThesisDHDK/blob/main/Notebooks/demo.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
