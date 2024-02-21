@@ -54,7 +54,7 @@ You may also need to get the necessary permissions:
 
 ## Demo <a name = "examples"></a>
 
-See a demonstration on the Google Colab Notebook.
+See a demonstration using samples from the <a href="http://www.clips.unina.it/it/index.jsp">CLIPS</a> corpus on the Google Colab Notebook.
 
 <a target="_blank" href="https://github.com/chloeppd/MasterThesisDHDK/blob/main/Notebooks/demo.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
