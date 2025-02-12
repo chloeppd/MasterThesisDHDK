@@ -9,6 +9,8 @@
 ## About <a name = "about"></a>
 This repository provides additional materials for the final project of the Digital Humanities & Digital Knowledge Master Degree, that included the development of a python package designed for processing audio files and extracting acoustic biomarkers for the identification of neurocognitive disorder from speech. The objective of the work is to contribute to current research in the identification of linguistical manifestations of the illness, towards the creation of reliable and non-intrusive tools for its early detection.
 
+For a detailed description of the research workflow, you may consult on the Final Thesis document available.
+
  ## Materials
 
 The Notebooks directory contains the following materials:
@@ -60,7 +62,8 @@ See a demonstration of the package using samples from the <a href="http://www.cl
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-
+As this is only a demo, please feel free to reach out for information on the full source code.
+Contact details: chloi.papadopoulou@studio.unibo.it
 
 <!--## Details and Acknowledgments<a name = "details"></a>
 
