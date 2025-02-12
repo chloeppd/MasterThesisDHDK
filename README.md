@@ -9,7 +9,7 @@
 ## About <a name = "about"></a>
 This repository provides additional materials for the final project of the Digital Humanities & Digital Knowledge Master Degree, that included the development of a python package designed for processing audio files and extracting acoustic biomarkers for the identification of neurocognitive disorder from speech. The objective of the work is to contribute to current research in the identification of linguistical manifestations of the illness, towards the creation of reliable and non-intrusive tools for its early detection.
 
-For a detailed description of the research workflow, you may consult on the Final Thesis document available.
+For a detailed description of the research workflow, please consult the [Final Thesis document](AcousticDLBs_Chloe_Papadopoulou.pdf) available.
 
  ## Materials
 
